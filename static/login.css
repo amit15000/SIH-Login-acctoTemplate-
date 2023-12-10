@@ -162,19 +162,16 @@ span {
 p {
   color: #a8a59b;
   text-align: center;
-
-  /* material-theme/body/large */
   font-family: Roboto;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5rem; /* 150% */
+  line-height: 1.5rem;
 }
 
 a {
   color: #e3d9d6;
 
-  /* material-theme/body/large */
   font-family: Roboto;
   font-size: 1rem;
   font-style: normal;
