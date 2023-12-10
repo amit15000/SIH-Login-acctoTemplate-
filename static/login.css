@@ -1,0 +1,183 @@
+body {
+  background: rgb(0, 0, 0);
+  color: azure;
+  margin: 0;
+  padding: 0;
+  background: rgb(21, 21, 21);
+  font-family: Arial, sans-serif;
+}
+h3 {
+  font-weight: 400;
+  margin: 0;
+  font-size: 2.6vh;
+  text-align: center;
+}
+.indiagov {
+  color: #4695f5;
+  margin-bottom: 4px;
+  text-decoration: none;
+}
+
+/* Navbar Section Code */
+
+nav {
+  background: linear-gradient(
+    to bottom,
+    black,
+    black,
+    black,
+    black,
+    rgb(47, 47, 47)
+  );
+  height: 21vh;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.g20 {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 70px;
+}
+.navbar {
+  display: flex;
+  gap: 3vw;
+  align-items: center;
+  height: 14vh;
+  width: 100%;
+  justify-content: space-between;
+}
+.navbar_left {
+  display: flex;
+  gap: 3vw;
+  align-items: center;
+  height: 14vh;
+  width: 30%;
+}
+.navbar_right {
+  width: 65%;
+}
+.navigation_links {
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  margin-bottom: 0;
+}
+.navigation_links li > a[href] {
+  text-decoration: none;
+  color: white;
+  font-size: 2.5vh;
+}
+.navigation_links li > a:hover {
+  color: #4695f5;
+}
+.login_image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login_image img {
+  margin-left: 10px;
+}
+/* Navbar Section Code End*/
+/* Login_Block Section Code */
+
+.login {
+  margin-top: 50px;
+  color: #fff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.4375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.login-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+input {
+  font-size: 1.5em;
+  width: 30vw;
+  height: 5vh;
+  gap: 0.6rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.66);
+  background: #e3d9d6;
+}
+button[type="submit"] {
+  width: 16vw;
+  height: 5vh;
+  margin: 1rem auto;
+  font-size: larger;
+  border-radius: 6.25rem;
+  background: #fff;
+}
+svg {
+  stroke-width: 2px;
+  stroke: #a8a59b;
+}
+.continue-with {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+span {
+  color: #a8a59b;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin: auto 0.5rem;
+}
+.Login-Options {
+  margin-bottom: 1rem;
+}
+.Login-Options a {
+  background-color: #e3d9d6;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin: auto 2rem;
+}
+.fa-brands {
+  color: black;
+}
+.fa-facebook-f {
+  padding: 3px;
+}
+p {
+  color: #a8a59b;
+  text-align: center;
+
+  /* material-theme/body/large */
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+}
+
+a {
+  color: #e3d9d6;
+
+  /* material-theme/body/large */
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}

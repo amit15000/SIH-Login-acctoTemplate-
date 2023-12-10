@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../static/login.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="nav_section">
+      <nav>
+        <div class="navbar">
+          <div class="navbar_left">
+            <img
+              src="../static/national_emblem.jpg"
+              alt="image"
+              height="80vh"
+              width="80vw"
+            />
+            <div>
+              <h3>
+                <a href="https://www.india.gov.in/" class="indiagov"
+                  >india.gov.in</a
+                >
+              </h3>
+              <h3>National Portal of India</h3>
+            </div>
+            <span class="g20"
+              ><img src="../static/G20.jpg" height="70vh" width="80vw"
+            /></span>
+          </div>
+          <div class="navbar_right">
+            <div>
+              <ul class="navigation_links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="active">About</a></li>
+                <li><a href="#" class="active">Legal Hotline</a></li>
+                <li><a href="#" class="active">Documents</a></li>
+                <li><a href="#" class="active">Languages</a></li>
+                <li class="login_image">
+                  <a href="#" class="active">Login/SignUp</a>
+                  <img
+                    src="../static/user.png"
+                    alt="login"
+                    width="65vw"
+                    height="65vh"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section id="Login-Block">
+      <div class="login-block">
+        <h1 class="login">Sign-up</h1>
+        <form action="/login" method="post">
+          <div class="input-fields">
+            <input type="text" name="username" placeholder="Name" />
+            <input type="email" placeholder="Email ID" />
+            <input type="password" placeholder="Password" />
+            <button type="submit" value="Login">Sign-up</button>
+          </div>
+          <div class="continue-with">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="103"
+              height="2"
+              viewBox="0 0 103 2"
+              fill="none"
+            >
+              <path d="M1 1H102.005" stroke="#A8A59B" stroke-linecap="round" />
+            </svg>
+            <span>Or Continue With</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="103"
+              height="2"
+              viewBox="0 0 103 2"
+              fill="none"
+            >
+              <path d="M1 1H102.005" stroke="#A8A59B" stroke-linecap="round" />
+            </svg>
+          </div>
+        </form>
+        <div class="Login-Options">
+          <a href=""> <i class="fa-brands fa-google fa-xl"></i></a>
+          <a href=""> <i class="fa-brands fa-facebook-f fa-xl"></i></a>
+          <a href=""> <i class="fa-brands fa-linkedin-in fa-xl"></i></a>
+        </div>
+        <p>
+          Already have an account?<span><a href="/">Login</a></span>
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
